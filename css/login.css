@@ -1,0 +1,159 @@
+.login_mg{
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f3;
+}
+.login_logo{
+    width: 940px;
+    margin: 0 auto;
+    height: 90px;
+    background: url(../img/douguo/logo_lo.png) no-repeat left center;
+}
+.login_zt{
+    width: 100%;
+    height: 628px;
+    background: #F8F8F7;
+    position: relative;
+}
+.login_zt::before{
+    content: "";
+    display: table;
+}
+.login_zt img{
+    width: 538px;height: 362px;
+    position: absolute;
+    top: 133px;left: 300px;
+}
+/* 表单 */
+.login_mg .dl_bd{
+    background-color: #fff;
+    width: 400px;
+    height: 480px;
+    border-radius: 2px;
+    /* position: absolute; */
+    margin: 80px 0px 0 750px;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(100,100,100,.1);
+}
+.login_mg .first_size{
+    width: 400px;
+    height: 56px;
+    border-bottom: 1px solid #f8f8f7;
+    position: relative;
+    margin-bottom: 40px;
+}
+.dl_bd>div>h2{
+    font-weight: normal;
+    font: 20px "Microsoft Yahei";
+    width: 150px;
+    position: absolute;
+    left: 30px;
+    line-height: 56px;
+}
+.dl_bd>div>span{
+    font: 18px "Microsoft Yahei";
+    width: 200px;
+    position: absolute;
+    right: 18px;
+    line-height: 56px;
+    display: block;
+    text-align: right;
+}
+.dl_bd>div>span>a{
+    text-decoration: none;
+    color: #3ea000;
+}
+.dl_bd>input{
+    display: block;
+    width: 300px;
+    height: 26px;
+    margin: auto;
+    /* line-height: 26px; */
+    border: 1px solid #deded3;
+    padding: 5px 0px 5px 5px;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+/* 忘记密码 >邮箱或手机不能为空 */
+.forg{
+    width: 300px;
+    height: 26px;
+    padding: 5px 0 15px 0;
+    font-size: 14px;
+    margin:10px auto;
+}
+.forg>a{
+    line-height: 26px;
+    color: #333;
+    text-decoration: none;
+}
+.login_mg .login_zt .yx{
+    color: #f00;
+    font-size:14px;
+    position: relative;
+    top: -40px;left: 10px;
+}
+/* 登录按钮 */
+.dl_bd>.btn{
+    width: 300px;
+    height: 30px;
+    margin: -10px auto;
+}
+.dl_bd>.btn>button{
+    width: 300px;height: 42px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* 鼠标点击时的样式 */
+.dl_bd>.btn>button:active{
+    border: 2px solid #74B9EF;
+}
+.dl_bd .qqweibo{
+    width: 300px;height: 22px;
+    border-bottom: 1px solid #f8f8f7;
+    margin:  auto;
+    margin-top: 22px;
+    padding: 14px;
+}
+.dl_bd .qqweibo>p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.dl_bd .xiaotu{
+    width: 310px;height: 41px;
+    margin: auto;
+}
+.dl_bd .xiaotu>a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+.dl_bd .xiaotu>a>img{
+    width: 18px;height: 18px;
+    position: relative;
+    top: 1px;left: -5px;
+}
+.dl_bd .xiaotu>a:nth-child(2) img{
+    width: 30px;height: 30px;
+    position: relative;
+    top: 8px;
+}
+.foot_zi{
+    width: 100%;
+}
+.foot_zi>p{
+    text-align: center;
+    margin:15px 0;
+    color: #6b553f;
+    font-size: 10px;
+}
+.foot_zi>p:last-child{
+    color: #999;
+}

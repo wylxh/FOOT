@@ -1,0 +1,190 @@
+/* 头部导航栏 */
+a{text-decoration: none;
+  font: 12px Tahoma,Geneva,"Microsoft Yahei";
+}
+#header{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    background: #fff; 
+    margin: 0 auto;
+    padding: 15px 290px;
+    z-index: 1;
+}
+#header .header_lan{
+    width: 1000px;
+    height: 30px;
+    position: relative;
+    bottom: 33px;left: 150px;
+}
+#header .header_lan li a{
+    line-height: 30px;
+}
+/* logo */
+#header a img{
+    width: 120px;
+    height: 30px;
+}
+#header  li{
+    float: left;
+    line-height: 30px;
+    padding:0 12px;
+}
+#header li a{
+    font-size: 15px;
+    color: #333;
+}
+/* 搜索框 */
+.header_lan li:nth-child(8) input{
+    box-sizing: border-box;
+    width: 182px;
+    height: 30px;
+    background: #F7F7F7;
+    border: 0;outline: 0;
+    padding: 7px 10px;
+    border-radius: 4px 0px 0px 4px;
+}
+/* 搜索按钮 */
+.header_lan li:nth-child(9) input{
+    box-sizing: border-box;
+    width: 38px;
+    height: 30px;
+    border: 0;outline: 0;
+    border-radius: 0px 4px 4px 0px;
+    position: relative;
+    right: 24px;top: 2px;
+    background:#eee url(../img/douguo/sslogo.png) no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+/* 占位符字体 */
+.header_lan .sou::placeholder{
+    color: #999;
+}
+.header_lan .sou:hover{
+    background: #eee;
+}
+.header_lan li:nth-child(13){
+    margin-left: -20px;
+}
+/* 首页样式 */
+#header .header_lan li:first-child>a{
+    color: #FFB31A;
+    font-weight: bold;
+    border-bottom: 2px solid #FFB31A;
+}
+/* 文字悬停效果 */
+#header .header_lan li>a:hover{
+    color: #FFB31A;
+}
+/* 发布样式 */
+#header .header_lan li:nth-child(11)>a{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background: #FFB31A;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: -30px;
+    margin-top: 2px;
+}
+/* 发布样式下拉菜单 */
+.header_lan li .fabu_drop{
+    display: none;
+    position: absolute;
+    left: 615px;
+    width: 130px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(64,71,81,0.2);
+    padding: 18px 8px;
+    text-align: center;
+    z-index: 999;
+    border-radius: 8px;
+}
+li:nth-child(11):hover .fabu_drop{
+    display: block;
+}
+/* 菜谱下拉菜单 */
+.header_lan li:nth-child(2)>.cai_drop{
+    display: none;
+    box-shadow: 0 2px 5px 0 rgba(64,71,81,0.10);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 14px;
+    text-align: left;
+    width: 492px;
+    height: 483px;
+    background: #fff;
+    position: absolute;
+    /* top: 45px; */
+    left: -162px;
+    z-index: 99;
+    padding: 0 16px;
+}
+.header_lan li:nth-child(2):hover .cai_drop{
+    display: block;
+}
+/* 下拉菜单第一行 */
+.header_lan li:nth-child(2)> .cai_drop .caipu_1{
+    border-bottom: 1px solid #E5E3DF;
+    width: 460px;
+    height: 55px;
+    line-height: 55px;
+    margin: auto;
+}
+#header .header_lan .caipu_1 a{
+    margin-right: 43px;
+}
+#header .header_lan .caipu_1 a img{
+    /* display: inline-block; */
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;right: 6px;
+}
+/* 下拉菜单two */
+#header .header_lan .caipu_2{
+    width: 460px;height: 93px;
+    border-bottom: 1px solid #E5E3DF;
+    margin: auto;
+}
+.caipu_2>span{
+    float: left;
+    width: 64px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 16px;
+    line-height: 46px;
+    color: #333;
+}
+.caipu_2 a {
+    width: 95px;
+    display: block;
+    line-height: 46px;
+    float: left;
+    margin-top: 8px;
+}
+/* 下拉菜单文字悬停样式 */
+#header .header_lan .caipu_2 a:hover{
+    color: #FFB31A;
+}
+#header .header_lan .caipu_2>a:nth-child(9){
+    color: #256DC6;
+}
+#header .header_lan .caipu_2>a:nth-child(9):hover{
+    color: #256DC6!important;
+}
+.caipu_3{
+    width: 460px;height: 93px;
+}
+#header .header_lan .caipu_3>a{
+    display: inline-block;
+    margin:10px 177px;
+    color: #256DC6;
+}
+#header .header_lan .caipu_3>a:active{
+    color: #FFB31A;
+}

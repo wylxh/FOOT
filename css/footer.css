@@ -1,0 +1,113 @@
+#footer{
+    width: 100%;
+    margin-top: 30px;
+    background: #f8f8f8;
+}
+#footer>.foot_t{
+    background: #f2f2f2;
+}
+#footer>.foot_t>.foot_tn{
+    width: 1000px;
+    position: relative;
+    height: 180px;
+    margin: 0 auto;
+    padding-top: 94px;
+    box-sizing: border-box;
+}
+#footer>.foot_t>.foot_tn>.logo2{
+    width: 147px;
+    left: 0;
+    top: 35px;
+    position: absolute;
+}
+#footer>.foot_t>.foot_tn>.logo2>img{
+    display: block;
+    width: 100%;
+}
+#footer>.foot_t>.foot_tn>.nr2{
+    width: 690px;
+}
+#footer>.foot_t>.foot_tn>.nr2>h1{
+    color: #999;
+    font-size: 14px;
+}
+#footer>.foot_t>.foot_tn>.nr2>p{
+    color: #999;
+    line-height: 160%;
+    margin-top: 10px;
+    font-size: 12px;
+}
+#footer>.foot_t>.foot_tn>.nr2>p>span{
+    font-size: 24px;
+    color: #84b92c;
+    line-height: 160%;
+    font-family: Georgia;
+}
+/* 第三个二维码 */
+#footer>.foot_t>.foot_tn>.ewm2{
+    width: 312px;
+    position: absolute;
+    top: 16px;
+    left: 690px;
+}
+#footer>.foot_t>.foot_tn>.ewm2>h3{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+#footer>.foot_t>.foot_tn>.ewm2>ul>li{
+    width: 92px;
+    float: left;
+    margin-right: 12px;
+    text-align: center;
+    color: #333;
+    font: 12px Tahoma;
+}
+#footer>.foot_t>.foot_tn>.ewm2>ul>li>a>img{
+    width: 92px;height: 92px;
+}
+/* 底部第二块 */
+#footer>.foot_b{
+    width: 1000px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+#footer>.foot_b>.foot_z{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 15px 0;
+}
+#footer>.foot_b>.foot_z>a{
+    color: #6b553f;
+    font-size: 12px;
+    text-decoration: none;
+}
+#footer>.foot_b>.foot_z2{
+    font-size: 12px;
+}
+#footer>.foot_b>.foot_z2>a{
+    color: #333;
+    text-decoration: none;
+    font: 12px Tahoma,Geneva,"Microsoft Yahei";
+}
+#footer>.foot_b>.foot_z2>a:last-child{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+/* #footer>.foot_bt{
+    width: 1000px;
+    height: 63px;
+    margin: auto;
+}
+#footer>.foot_bt>.sp_d{
+    width: 140px;
+    margin:30px auto 0;
+}
+#footer>.foot_bt>.sp_d>span{
+    display: inline-block;
+    width: 64px;height: 26px;
+    border: 1px solid red;
+} */
